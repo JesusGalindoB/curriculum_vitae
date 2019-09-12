@@ -1,12 +1,196 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta http-equiv="X-UA-Compatible" content="ie=edge"/>
+    <title>CV</title>
 </head>
 <body>
-    <div>un div</div>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#experience">Experiencia</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <article id="info_general">
+            <img src="./img/profile_photo" alt="profile photo"/>
+            <img src="./img/backgound" alt="background image"/>
+            <hgroup>
+                <h1>name</h1>
+                <h2>profession / Ocupation</h2>
+            </hgroup>
+            <ul>
+                <li>
+                    <a href="https://www.facebook.com/" target="_blank">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                            <path d="M12 2c5.514 0 10 4.486 10 10s-4.486 10-10 10-10-4.486-10-10 4.486-10 10-10zm0-2c-6.627 0-12 5.373-12 12s5.373 12 12 12 12-5.373 12-12-5.373-12-12-12zm-2 10h-2v2h2v6h3v-6h1.82l.18-2h-2v-.833c0-.478.096-.667.558-.667h1.442v-2.5h-2.404c-1.798 0-2.596.792-2.596 2.308v1.692z"/>
+                        </svg>
+                    </a>
+                </li>
+                <li>
+                    <a href="https://co.linkedin.com/" target="_blank">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                            <path d="M12 2c5.514 0 10 4.486 10 10s-4.486 10-10 10-10-4.486-10-10 4.486-10 10-10zm0-2c-6.627 0-12 5.373-12 12s5.373 12 12 12 12-5.373 12-12-5.373-12-12-12zm-2 8c0 .557-.447 1.008-1 1.008s-1-.45-1-1.008c0-.557.447-1.008 1-1.008s1 .452 1 1.008zm0 2h-2v6h2v-6zm3 0h-2v6h2v-2.861c0-1.722 2.002-1.881 2.002 0v2.861h1.998v-3.359c0-3.284-3.128-3.164-4-1.548v-1.093z"/>
+                        </svg>
+                    </a>
+                </li>
+                <li>
+                    <a href="https://twitter.com/?lang=es" target="_blank">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                            <path d="M12 2c5.514 0 10 4.486 10 10s-4.486 10-10 10-10-4.486-10-10 4.486-10 10-10zm0-2c-6.627 0-12 5.373-12 12s5.373 12 12 12 12-5.373 12-12-5.373-12-12-12zm6.5 8.778c-.441.196-.916.328-1.414.388.509-.305.898-.787 1.083-1.362-.476.282-1.003.487-1.564.597-.448-.479-1.089-.778-1.796-.778-1.59 0-2.758 1.483-2.399 3.023-2.045-.103-3.86-1.083-5.074-2.572-.645 1.106-.334 2.554.762 3.287-.403-.013-.782-.124-1.114-.308-.027 1.14.791 2.207 1.975 2.445-.346.094-.726.116-1.112.042.313.978 1.224 1.689 2.3 1.709-1.037.812-2.34 1.175-3.647 1.021 1.09.699 2.383 1.106 3.773 1.106 4.572 0 7.154-3.861 6.998-7.324.482-.346.899-.78 1.229-1.274z"/>
+                        </svg>
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.instagram.com/" target="_blank">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                            <path d="M12 2c5.514 0 10 4.486 10 10s-4.486 10-10 10-10-4.486-10-10 4.486-10 10-10zm0-2c-6.627 0-12 5.373-12 12s5.373 12 12 12 12-5.373 12-12-5.373-12-12-12zm4.615 6h-9.23c-.766 0-1.385.62-1.385 1.384v9.23c0 .766.619 1.386 1.385 1.386h9.23c.766 0 1.385-.62 1.385-1.385v-9.23c0-.765-.619-1.385-1.385-1.385zm-4.615 3.693c1.274 0 2.309 1.032 2.309 2.307s-1.035 2.307-2.309 2.307-2.307-1.033-2.307-2.307 1.033-2.307 2.307-2.307zm4.5 6.346c0 .255-.207.461-.461.461h-8.078c-.254 0-.461-.207-.461-.461v-5.039h.949c-.045.158-.078.32-.102.486-.023.168-.038.339-.038.514 0 2.04 1.652 3.693 3.691 3.693s3.691-1.653 3.691-3.693c0-.174-.015-.346-.039-.514-.023-.166-.058-.328-.102-.486h.95v5.039zm0-6.991c0 .255-.207.462-.461.462h-1.088c-.256 0-.461-.208-.461-.462v-1.087c0-.255.205-.461.461-.461h1.088c.254 0 .461.207.461.461v1.087z"/>
+                        </svg>
+                    </a>
+                </li>
+            </ul>
+        </article>
+        <article id="about">
+            <a href="#info_general">Back to top</a>
+            <hgroup>
+                <h1>About</h1>
+                <h2>Profile</h2>
+            </hgroup>
+            <p>
+               Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
+               Nisi voluptas reprehenderit accusamus quisquam, pariatur reiciendis at est consequatur beatae dicta laudantium eius, 
+               corporis quod culpa adipisci, tempora optio rerum soluta.
+            </p>
+            <h3>Basic Info</h3>
+            <dl>
+                <dt>born</dt>
+                <dd>Lorem ipsum dolor sit</dd>
+                <dt>Birth Place</dt>
+                <dd>Lorem ipsum dolor sit</dd>
+                <dt>Phone Number</dt>
+                <dd>Lorem ipsum dolor sit</dd>
+                <dt>Address</dt>
+                <dd>Lorem ipsum dolor sit</dd>
+            </dl>
+        </article>
+        <article id="experience">
+            <a href="#info_general">Back to top</a>
+            <h1>Experience</h1>
+            <section>
+                <h2>Web Developer</h2>
+                <p>
+                    At some Large Company Inc.<br/>
+                    3 years - Present<br/>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                    Beatae numquam aliquid nihil minima, architecto optio veniam laboriosam eos ullam 
+                    accusamus sit odio corrupti modi quas cumque mollitia explicabo ipsa autem?
+                </p>
+                <address>
+                    Direct Report: <a href="https://www.example.com/" target="_blank">jhon Smith</a>
+                    Phone: <a href="https://www.example.com/" target="_blank">3212548679</a>
+                </address>
+            </section>
+            <section>
+                <h2>Web Developer</h2>
+                <p>
+                    At some Large Company Inc.<br/>
+                    4 years - Present<br/>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                    Beatae numquam aliquid nihil minima, architecto optio veniam laboriosam eos ullam 
+                    accusamus sit odio corrupti modi quas cumque mollitia explicabo ipsa autem?
+                </p>
+                <address>
+                    Direct Report: <a href="https://www.example.com/" target="_blank">jhon Smith</a>
+                    Phone: <a href="https://www.example.com/" target="_blank">3212548679</a>
+                </address>
+            </section>
+            <section>
+                <h2>Web Developer</h2>
+                <p>
+                    At some Large Company Inc.<br/>
+                    2 years - Present<br/>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                    Beatae numquam aliquid nihil minima, architecto optio veniam laboriosam eos ullam 
+                    accusamus sit odio corrupti modi quas cumque mollitia explicabo ipsa autem?
+                </p>
+                <address>
+                    Direct Report: <a href="https://www.example.com/" target="_blank">jhon Smith</a>
+                    Phone: <a href="https://www.example.com/" target="_blank">3212548679</a>
+                </address>
+            </section>
+        </article>
+        <aside>
+            <h1>Reference</h1>
+            <figure>
+                <img src="./img/photo_jhons" alt="photo by jhon smith">
+                <figcaption>
+                    "He is really a great professional Lorem ipsum dolor sit amet consectetur adipisicing elit"
+                </figcaption>
+            </figure>
+            <figure>
+                <img src="./img/photo_jhons" alt="photo by jhon smith">
+                <figcaption>
+                    "He is really a great professional Lorem ipsum dolor sit amet consectetur adipisicing elit"
+                </figcaption>
+            </figure>
+            <figure>
+                <img src="./img/photo_jhons" alt="photo by jhon smith">
+                <figcaption>
+                    "He is really a great professional Lorem ipsum dolor sit amet consectetur adipisicing elit"
+                </figcaption>
+            </figure>
+        </aside>
+        <article id="education">
+            <a href="#info_general">Back to top</a>
+            <h1>Education</h1>
+            <section>
+                <h2>Web Developer</h2>
+                <p>
+                    At some Large College<br/>
+                    2 years<br/>
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
+                    Tenetur, illum officiis? Alias sequi earum esse optio ratione? Nemo dignissimos, 
+                    autem totam libero perferendis blanditiis corporis magni praesentium velit aliquam mollitia.
+                </p>
+            </section>
+            <section>
+                <h2>Web Developer</h2>
+                <p>
+                    At some Large College<br/>
+                    2 years<br/>
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
+                    Tenetur, illum officiis? Alias sequi earum esse optio ratione? Nemo dignissimos, 
+                    autem totam libero perferendis blanditiis corporis magni praesentium velit aliquam mollitia.
+                </p>
+            </section>
+        </article>
+        <article>
+            <a href="#info_general">Back to top</a>
+            <h1>Contact</h1>
+            <h2>Say Hello to me!</h2>
+            <div>
+                <label for="name">Name</label>
+                <input type="text" id="name" name="name" placeholder="Some hint" autocomplete="">
+            </div>
+            <div>
+                <label for="email">Name</label>
+                <input type="email" id="email" name="email" placeholder="Some hint" autocomplete="">
+            </div>
+            <div>
+                <label for="message"></label>
+                <textarea name="message" id="message" cols="30" rows="10"></textarea>
+            </div>
+            <input type="submit" name="submit" value="submit">
+        </article>
+    </main>
+    <footer>
+        <p>Copyright © 2019 Pepito Perez</p>
+    </footer>
 </body>
 </html>
